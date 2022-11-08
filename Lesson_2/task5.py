@@ -1,0 +1,6 @@
+in_value = list(map(int,input("Enter value:").split(',')))
+print("Max value:",max(in_value))
+print("Min value:",min(in_value))
+in_value.pop(in_value.index(max(in_value)))
+in_value.pop(in_value.index(min(in_value)))
+print("Sum of other elements:",sum(in_value))
