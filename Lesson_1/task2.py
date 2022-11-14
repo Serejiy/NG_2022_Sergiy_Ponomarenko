@@ -1,4 +1,4 @@
-print("Choose operation (+,-,*,/,root(квадратный корень),power(степень): ")
+print("Choose operation (+,-,*,/,root,power: ")
 in_value = input()
 print("Insert first value: ")
 first_value = int (input ())
